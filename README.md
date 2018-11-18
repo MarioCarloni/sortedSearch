@@ -13,6 +13,8 @@
 
 ## Getting started
 
+[Download/Install NodeJS](https://nodejs.org/en/download/)
+
 ```bash
 # 1. Clone the repository.
 git clone https://github.com/MarioCarloni/sortedSearch.git
