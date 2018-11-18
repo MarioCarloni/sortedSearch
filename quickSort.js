@@ -5,7 +5,7 @@ const quickSort = arr => {
   // Edge case: Return array of length 1
   if (arr.length < 2) return arr;
   
-  // Randomly select array index as pivot
+  // Use randomly selected index as pivot
   // https://cs.stackexchange.com/questions/35994/why-does-randomized-quicksort-have-on-log-n-worst-case-runtime-cost
   const pivot = arr[Math.floor(Math.random() * arr.length)];
   
@@ -24,7 +24,7 @@ const quickSort = arr => {
     else equal.push(element);
   }
   
-  // Run above logic on partitions, then concatenate into single array
+  // Recurse left (lesser) and right (greater) partitions, then concatenate into single array
   return quickSort(left).concat(equal).concat(quickSort(right));
 };
 
