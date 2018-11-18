@@ -1,6 +1,6 @@
 # sortedSearch
 
-**A Quicksort / Binary Search app**
+**A NodeJS implementation of Quicksort / Binary Search**
 
 > Randomly generate 1,000,000 integers between 1 - 1,000,000 and randomly select integer to search
 
