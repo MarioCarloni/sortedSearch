@@ -7,7 +7,7 @@ const randomItem = Math.floor(Math.random() * 1000000)
 let randomArr = []
 let result
 
-// Create array of random integers between 1 - 1,000,000
+// Fill array with random integers between 1 - 1,000,000
 for (let i = 0; i < 1000000; i++) {
     const randomInt = Math.floor(Math.random() * 1000000)
     randomArr.push(randomInt)
