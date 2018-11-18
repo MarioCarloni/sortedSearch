@@ -21,7 +21,7 @@ git clone https://github.com/MarioCarloni/sortedSearch.git
 cd sortedSearch
 
 # 3. Start script
-node .\sortedSearch
+node .\start
 ```
 
 ## Learn More
