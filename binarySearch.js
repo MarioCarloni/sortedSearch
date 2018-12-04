@@ -8,7 +8,7 @@ function binarySearch(sortedArr, searchItem) {
   let guessed
   
   // Loop through array
-	while(low <= high) {
+  while(low <= high) {
 
     // Assign midpoint using array mean
     mid = Math.floor((low + high) / 2),
@@ -17,6 +17,7 @@ function binarySearch(sortedArr, searchItem) {
     // Return selected element if found
     if(guessed === searchItem) {
       return 'Found value ' + guessed + ' at position ' + mid
+      break
     }
     
     // Otherwise, converge and recalculate until found
@@ -27,7 +28,9 @@ function binarySearch(sortedArr, searchItem) {
     }
   }
   
-  return null;
+  if (guessed != searchItem) {
+    return 'Not found'
+  }
 }
 
 module.exports = {
